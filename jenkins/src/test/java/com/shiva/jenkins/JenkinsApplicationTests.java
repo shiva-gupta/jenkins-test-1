@@ -10,4 +10,9 @@ class JenkinsApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void test1() {
+		assert 18 < 0;
+	}
+
 }
